@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Associated Press News: Breaking News, Latest Headlines and Videos | AP News</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #000;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      background-color: #000; /* Cambié el color de fondo a #000 - Negro */
+      padding: 0;
+      padding-bottom: 5px;
+      width: 100%;
+      min-height: 60px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 10;
+    }
+    .logo-image {
+      width: 50px;
+      height: 60px;
+      margin-bottom: 5px;
+      margin-right: 35px;
+      margin-left: 35px;
+    }
+    .logo-text {
+      font-weight: bold;
+      font-size: 26px;
+    }
+    .logo-text span {
+      color: red;
+    }
+    nav {
+      display: flex;
+      margin-left: 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-right: 15px;
+      font-size: 13px;
+    }
+    .donate-button {
+      background-color: red;
+      color: white;
+      border: none;
+      padding: 6px 12px;
+      font-size: 12px;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 3px;
+      margin-left: auto;
+      margin-right: 35px;
+      width: 80px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .top-section {
+      background: linear-gradient(to bottom, #000 0%, #1e1e1e 100%);
+      color: white;
+      padding: 70px 0 30px 0;
+      width: 100%;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .top-section h1 {
+      font-size: 40px;
+      font-weight: bold;
+      max-width: 1200px;
+      margin: 0 auto;
+      margin-left: 35px;
+    }
+    .date {
+      font-size: 12px;
+      color: #bbb;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      margin-left: 35px;
+    }
+    .container {
+      display: flex;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    .main-content {
+      flex: 2;
+      padding-right: 40px;
+      min-width: 0;
+    }
+    .main-content img {
+      width: 100%;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    .article-body {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #333;
+      min-width: 0;
+    }
+    .sidebar {
+      flex: 1;
+      border-left: 1px solid #ccc;
+      padding-left: 30px;
+      min-width: 0;
+      flex: 0 0 25%;
+    }
+    .sidebar h2 {
+      font-size: 16px;
+      font-weight: bold;
+      border-top: 3px solid red;
+      padding-top: 10px;
+      margin-bottom: 20px;
+      font-family: 'Poppins', sans-serif;
+    }
+    .most-read-item {
+      margin-bottom: 25px;
+      text-align: center;
+    }
+    .most-read-item img {
+      width: 100%;
+      border-radius: 5px;
+      margin-bottom: 8px;
+    }
+    .most-read-item p {
+      font-size: 14px;
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+    .most-read-list {
+      font-size: 13px;
+      margin-top: 10px;
+      list-style-position: inside;
+      padding-left: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+    .most-read-list li {
+      margin-bottom: 8px;
+      line-height: 1.4;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 8px;
+    }
+    .most-read-list li:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img class="logo-image" src="APLogo.png" alt="AP Logo">
+    <div>
+      <nav>
+        <a href="https://apnews.com/world-news">WORLD</a>
+        <a href="https://apnews.com/us-news">U.S.</a>
+        <a href="https://apnews.com/politics">POLITICS</a>
+        <a href="https://apnews.com/sports">SPORTS</a>
+        <a href="https://apnews.com/entertainment">ENTERTAINMENT</a>
+        <a href="https://apnews.com/newsletters">MORE</a>
+      </nav>
+    </div>
+    <button class="donate-button">DONATE</button>
+  </header>
+  <section class="top-section">
+    <div class="date">15 MAY 2025</div>
+    <h1>Transgender Men Killed Her Dog — The Dog was called CULASO</h1>
+  </section>
+  <div class="container">
+    <section class="main-content">
+      <div>
+        <img src="wolf.jpeg" alt="Dog (fox) sleeping peacefully" />
+        <div class="article-body">
+          <p>
+            In a bizarre and disturbing incident, a woman in a quiet rural town is mourning the tragic loss of her pet dog, Culaso. According to initial reports, the animal was found lifeless early Thursday morning near a wooded area close to her home.
+          </p>
+          <p>
+            Authorities have not yet released official statements regarding motives or suspects, but unverified witness claims have caused heated debate on social media. The town remains shocked as the investigation unfolds.
+          </p>
+        </div>
+      </div>
+    </section>
+    <aside class="sidebar">
+      <h2>MOST READ</h2>
+      <div class="most-read-item">
+        <img src="Starbucks.png" alt="Starbucks workers" />
+        <p>More than 1,000 Starbucks baristas go on strike to protest new dress code</p>
+      </div>
+      <ol class="most-read-list">
+        <li>Mexican security chief confirms cartel family members entered US in a deal with Trump administration</li>
+        <li>Older people in crosshairs as government restarts Social Security garnishment on student loans</li>
+        <li>Trump surgeon general pick praised unproven psychedelic therapy, said mushrooms helped her find love</li>
+        <li>Trump marvels at wealth of his Arab hosts while he eyes White House and Air Force One upgrades</li>
+      </ol>
+    </aside>
+  </div>
+</body>
+</html>
