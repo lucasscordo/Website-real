@@ -15,7 +15,6 @@
       display: flex;
       align-items: center;
       background-color: #000;
-      padding: 0;
       padding-bottom: 5px;
       width: 100%;
       min-height: 60px;
@@ -27,13 +26,10 @@
     .logo-image {
       width: 50px;
       height: 60px;
-      margin-bottom: 5px;
-      margin-right: 35px;
-      margin-left: 35px;
+      margin: 0 35px 5px 35px;
     }
     nav {
       display: flex;
-      margin-left: 0;
     }
     nav a {
       color: white;
@@ -79,9 +75,7 @@
     .date {
       font-size: 12px;
       color: #bbb;
-      margin-top: 5px;
-      margin-bottom: 10px;
-      margin-left: 35px;
+      margin: 5px 0 10px 35px;
     }
     .container {
       display: flex;
@@ -92,7 +86,6 @@
     .main-content {
       flex: 2;
       padding-right: 40px;
-      min-width: 0;
     }
     .main-content img {
       width: 100%;
@@ -103,14 +96,11 @@
       font-size: 18px;
       line-height: 1.6;
       color: #333;
-      min-width: 0;
     }
     .sidebar {
-      flex: 1;
+      flex: 0 0 25%;
       border-left: 1px solid #ccc;
       padding-left: 30px;
-      min-width: 0;
-      flex: 0 0 25%;
     }
     .sidebar h2 {
       font-size: 16px;
@@ -149,50 +139,46 @@
     }
     .most-read-list li:last-child {
       border-bottom: none;
-      padding-bottom: 0;
     }
   </style>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <img class="logo-image" src="APLogo.png" alt="AP Logo">
+    <img class="logo-image" src="APLogo.png" alt="AP Logo" />
     <nav>
-      <a href="https://apnews.com/world-news">WORLD</a>
-      <a href="https://apnews.com/us-news">U.S.</a>
-      <a href="https://apnews.com/politics">POLITICS</a>
-      <a href="https://apnews.com/sports">SPORTS</a>
-      <a href="https://apnews.com/entertainment">ENTERTAINMENT</a>
-      <a href="https://apnews.com/newsletters">MORE</a>
+      <a href="#">WORLD</a>
+      <a href="#">U.S.</a>
+      <a href="#">POLITICS</a>
+      <a href="#">SPORTS</a>
+      <a href="#">ENTERTAINMENT</a>
+      <a href="#">MORE</a>
     </nav>
-    <a href="https://apnews.com/donate" class="donate-button">DONATE</a>
+    <a href="#" class="donate-button">DONATE</a>
   </header>
   <section class="top-section">
     <div class="date">April 17, 2020</div>
-    <h1>Rocky: The Dog Who Dethroned the Viral King Thorne</h1>
+    <h1>Thorne: The Dog Who Dethroned the Viral King Charles</h1>
   </section>
   <div class="container">
     <section class="main-content">
-      <img src="king.jpeg" alt="Rocky the dog" />
+      <img src="king.jpeg" alt="King Charles the dog" />
       <div class="article-body">
-        <p><strong>Rocky: The New Alpha at the Shelter</strong></p>
+        <p><strong>Thorne: The New Alpha at the Chinese Shelter</strong></p>
         <p>
-          In a quiet dog shelter located on the outskirts of a bustling Chinese city, a dramatic shift in leadership recently captivated both staff and animal lovers alike. The story centers around two dogs: Thorne, the long-standing alpha and symbol of stability, and Rocky, a younger, more energetic newcomer with ambition in his eyes.
+          For years, Charles reigned supreme over the dog pack at a rescue shelter on the outskirts of Beijing. Nicknamed “King Charles” by shelter workers and volunteers, he was calm, majestic, and commanded respect without needing to growl. His story of survival and leadership had even gone viral, making him an internet favorite.
         </p>
         <p>
-          Thorne had ruled the pack for years. Known for his calm demeanor, firm stance, and commanding presence, he kept order among the dogs and earned the respect of both canines and humans. He was more than just a leader — he was a symbol of resilience, having survived harsh conditions before finding refuge at the shelter. His image went viral months ago, making him an online sensation.
+          But as time passed, a new contender began to rise. Thorne, a younger, stronger, and more aggressive dog, began testing boundaries. Shelter staff noticed his subtle challenges to Charles’s authority — from blocking his path at feeding time to staring contests that lingered longer than usual.
         </p>
         <p>
-          But peace was never meant to last forever. Rocky, a street-smart rescue with a fierce spirit and youthful energy, began challenging Thorne in subtle but increasingly bold ways. What started with prolonged eye contact and posturing eventually escalated into short scuffles, tension during feeding times, and mounting unease in the yard.
+          Eventually, tensions reached a boiling point. In a fierce but brief confrontation in the central yard, Thorne launched a decisive attack. Charles sustained a leg injury and was forced to retreat, marking the end of an era. Witnesses described the scene as intense, emotional, and almost ritualistic in its finality.
         </p>
         <p>
-          Then came the day everything changed. In a heated and decisive confrontation, Rocky lunged at Thorne in the main yard. The fight was quick but intense. Rocky managed to wound Thorne on his right leg, leaving the old alpha limping and unable to continue asserting dominance. Witnesses described the moment as emotional, chaotic, and almost cinematic.
+          The pack shifted immediately. With Charles sidelined, the other dogs began following Thorne's lead. Despite his aggressive takeover, Thorne has shown signs of growing into his leadership role — standing guard during feedings, calming younger dogs, and asserting order.
         </p>
         <p>
-          Since that moment, the pack has shifted its loyalty. Other dogs, sensing the change, began to follow Rocky, recognizing him as their new leader. The shelter’s staff was initially shocked, but many accepted that the natural hierarchy had spoken. Thorne is currently recovering under close veterinary supervision and remains a cherished figure at the shelter.
-        </p>
-        <p>
-          As for Rocky, his rise marks the beginning of a new chapter for the pack. He has shown not only strength but also responsibility, watching over the younger dogs and ensuring calm in the once-unstable yard. Though still young, he now carries the burden and honor of leadership — a role he earned through instinct, timing, and undeniable will.
+          Charles, now under veterinary care, is recovering and remains beloved by all. His legacy as a peaceful and wise leader continues to inspire volunteers and followers of the shelter. Meanwhile, Thorne steps into the spotlight — not just as the new alpha, but as a symbol of change and survival in the world of pack hierarchy.
         </p>
       </div>
     </section>
@@ -212,5 +198,3 @@
   </div>
 </body>
 </html>
-
-
